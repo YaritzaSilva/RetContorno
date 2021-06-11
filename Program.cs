@@ -29,18 +29,18 @@ namespace RetContorno
 
                     if (linhas==1||linhas==nrlinhas)
                     {
-                        Console.Write("*");
+                        Console.Write("* ");
                     }
                     else
                     {
                         if (coluna==1||coluna==nrcolunas)
                         {
-                            Console.Write("*");
+                            Console.Write("* ");
 
                         }
                         else
                         {
-                            Console.Write(" ");
+                            Console.Write("  ");
                         }
                     }
                 }
